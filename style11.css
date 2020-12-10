@@ -1,0 +1,26 @@
+.identite {
+    text-align: left start;
+    font-weight: bold;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.menu {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+}
+.annee {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;}
+
+.lieu{
+    color: cadetblue;
+}

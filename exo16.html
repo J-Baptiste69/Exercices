@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="styleExo16.css">
+</head>
+
+<body>
+    <form method="POST" action="Traitement .PHP">
+        <fieldset>
+            <legend class="titreLegende">Identité</legend>
+            <ol>
+                <li>
+                    <div>
+                        <label class="ClassLabel" for="Name">Nom Prénom </label>
+                        <input type="text" id="Name" placeholder="Prénom et nom">
+
+                        <!--<textarea name="" id="" cols="30" rows="10"></textarea>-->
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="ClassLabel" for="Users_Mail"> Votre Email </label>
+                        <input type="text" id="Users_Mail" placeholder="Votre email">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="ClassLabel" for="Users_Phone"> Votre Téléphone </label>
+                        <input type="text" id="Users_Phone" placeholder="Exemple0765589874">
+                    </div>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend class="titreLegende">Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <div>
+                        <label for="Adress"> Adresse</label>
+                        <textarea name="" id="" cols="20" rows="5" placeholder="Votre adresse ici.."></textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="Users_CodePostal"> Code postal </label>
+                        <input type="text" id="Users_CodePostal" placeholder="Votre code postal..">
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="Users_pays"> Pays </label>
+                        <input type="text" id="Users_pays" placeholder="Pays.">
+                    </div>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend class="titreLegende">Type de carte bancaire</legend>
+
+            <ol>
+                <li>
+                    <input type="radio" name="carte">
+                    <label for="carte">Visa</label>
+                </li>
+                <li>
+                    <input type="radio" name="carte">
+                    <label for="carte">AmEx</label>
+                </li>
+                <li>
+                    <input type="radio" name="carte">
+                    <label for="carte">Mastercard</label>
+                </li>
+            </ol>
+
+        </fieldset>
+
+        </li>
+        <ol start="2">
+            <li>
+
+                <label for="numeroCarte">N° de carte</label>
+                <input type="number" name="numeroCarte">
+
+            </li>
+            <li>
+
+                <label for="codeSecurite">Code de sécurité</label>
+                <input type="number" name="codeSecurite">
+
+            </li>
+            <li>
+
+                <label for="nomPorteur">Nom du porteur</label>
+                <input type="number" name="nomPorteur" placeholder="Même nom que sur la carte">
+
+            </li>
+        </ol>
+
+
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+
+            <input type="submit" name="achat" value="J'achète">
+        </fieldset>
+    </form>
+</body>
+
+</html>

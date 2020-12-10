@@ -1,0 +1,28 @@
+.paragraphe1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.paragraphe2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.paragraphe3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.paragraphe4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: right;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}

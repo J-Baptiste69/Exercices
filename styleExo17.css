@@ -1,0 +1,23 @@
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: coral;
+}
+#fieldsetInscription{
+    background-color: sandybrown;
+    
+}
+.ClassLabel{
+    font-family: serif;
+    font-weight: bolder;
+    color: white;
+}
+div>fieldset{
+    width: 500px;
+}
