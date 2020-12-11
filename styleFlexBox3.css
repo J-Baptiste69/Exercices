@@ -1,0 +1,41 @@
+#bleu{
+    background-color: blue;
+    width: 800px;height: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+#Rose {
+    background-color: pink;
+    width: 350px; height: 500;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+#rouge{
+    background-color: red;
+    width: 300px; height: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#vert{
+    background-color: green;
+    width: 250px;height: 200px;
+}
+
+#jaune{
+    background-color: yellow;
+    width: 220px;height: 50px;
+    
+}
