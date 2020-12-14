@@ -1,0 +1,26 @@
+#grise{
+    background-color: gray;
+    width: 1000px; height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#bleu1{
+    background-color: turquoise;
+    width: 500px;height: 500px;
+}
+
+#bleuPrincip{
+    display: flex;
+    justify-content: space-between;
+    ;
+    
+}
+
+#bleu2{
+    background-color: turquoise;
+    width:400px ;height:200px ;
+}

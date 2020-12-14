@@ -16,14 +16,14 @@ function jouer(id) {
 
             color_case = "rose"
 
-            color_case.innerText('O')
+            //color_case.innerText('O')//
 
         }
         else {
 
             cases.classList.add("blue")
             color_case = "blue"
-            color_case.innerText('X')
+            //color_case.innerText('X')//
         }
     }
 

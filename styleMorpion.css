@@ -13,9 +13,9 @@ border: 1px solid black;
 }
 
 .blue{
-color: blue;}
-
+background-color: blue;
+}
 
 .rose{
-    color: pink;
+background-color: pink;
 }
